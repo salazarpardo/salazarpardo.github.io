@@ -1,5 +1,35 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700,900,700italic);
+@import url(http://weloveiconfonts.com/api/?family=entypo);
 
+body {
+  background: #0078a0;
+}
+body, h1, h2, h3, h4, h5, h6, button, .button{
+  font-family: 'Lato', sans-serif;
+}
+/* entypo */
+[class*="entypo-"]:before {
+  font-family: 'entypo', sans-serif;
+}
 /*---Home---*/
+.tab-bar {
+  background: transparent;
+}
+.tab-bar .menu-icon span:after{
+  
+}
+.tab-bar h1.title {
+  font-size: 1.5rem;
+}
+.tab-bar a, .top-row a, .top-row label, .footer a{
+  color: #fff;
+}
+.left-small {
+  border-right: transparent;
+}
+.right-small {
+  border-left: transparent;
+}
 h1.title {
   font-weight: normal;
 }
@@ -7,6 +37,24 @@ h1.title {
   height: 2.3125rem;
   padding-top: 0.75rem;
 }
+.top-row{
+  padding: 5rem 0;
+}
 .hero h2.text-center {
   margin: 3rem;
+  color: #fff;
+}
+.content-row {
+  padding: 5rem 0;
+  background: rgb(244,244,244);
+  background: -moz-linear-gradient(top,  rgba(244,244,244,1) 0%, rgba(255,255,255,1) 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(244,244,244,1)), color-stop(100%,rgba(255,255,255,1)));
+  background: -webkit-linear-gradient(top,  rgba(244,244,244,1) 0%,rgba(255,255,255,1) 100%);
+  background: -o-linear-gradient(top,  rgba(244,244,244,1) 0%,rgba(255,255,255,1) 100%);
+  background: -ms-linear-gradient(top,  rgba(244,244,244,1) 0%,rgba(255,255,255,1) 100%);
+  background: linear-gradient(to bottom,  rgba(244,244,244,1) 0%,rgba(255,255,255,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f4f4f4', endColorstr='#ffffff',GradientType=0 );
+}
+.footer {
+  padding: 5rem 0 0;
 }
