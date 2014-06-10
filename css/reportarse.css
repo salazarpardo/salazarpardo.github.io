@@ -1,0 +1,12 @@
+
+/*---Home---*/
+h1.title {
+  font-weight: normal;
+}
+.hero .button.expand {
+  height: 2.3125rem;
+  padding-top: 0.75rem;
+}
+.hero h2.text-center {
+  margin: 3rem;
+}
