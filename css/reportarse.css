@@ -7,24 +7,34 @@ body {
   background: rgba(0, 120, 160, 0.8);
   height: auto;
 }
-body, h1, h2, h3, h4, h5, h6, button, .button{
+body, h1, h2, h3, h4, h5, h6, button, .button, .pricing-table .title, .pricing-table .price{
   font-family: 'Lato', sans-serif;
+}
+h1, h2, h3, h4, h5, h6, p {
+  margin-bottom: 1.5rem;
+}
+
+.button {
+  clear: both;
 }
 /* entypo */
 [class*="entypo-"]:before {
   font-family: 'entypo', sans-serif;
 }
 /*---Home---*/
-.tab-bar {
+.tab-bar, .tab-bar .button.expand {
   background: transparent;
 }
 .tab-bar .menu-icon span:after{
   
 }
+.tab-bar .button.expand:hover {
+  background: rgba(0, 120, 160, 0.8);
+}
 .tab-bar h1.title {
   font-size: 1.5rem;
 }
-.tab-bar a, .top-row a, .top-row label, .footer a{
+.tab-bar a, .top-row a, .top-row label, .footer a, .rsearch a, .rsearch label{
   color: #fff;
 }
 .left-small {
@@ -36,19 +46,46 @@ body, h1, h2, h3, h4, h5, h6, button, .button{
 h1.title {
   font-weight: normal;
 }
-.hero .button.expand {
+.rsearch .button.expand {
   height: 2.3125rem;
-  padding-top: 0.75rem;
+  padding-top: 0.25rem;
+  font-size: 1.5rem;
 }
 .top-row{
   padding: 5rem 0;
 }
 .hero h2.text-center {
-  margin: 3rem;
+  margin: 2rem;
+  color: #fff;
+}
+.hero h3{
   color: #fff;
 }
 .content-row {
   padding: 5rem 0;
+  background: rgb(244,244,244);
+  background: -moz-linear-gradient(top,  rgba(244,244,244,0.8) 0%, rgba(255,255,255,0.5) 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(244,244,244,0.8)), color-stop(100%,rgba(255,255,255,0.5)));
+  background: -webkit-linear-gradient(top,  rgba(244,244,244,0.8) 0%,rgba(255,255,255,0.5) 100%);
+  background: -o-linear-gradient(top,  rgba(244,244,244,0.8) 0%,rgba(255,255,255,0.5) 100%);
+  background: -ms-linear-gradient(top,  rgba(244,244,244,0.8) 0%,rgba(255,255,255,0.5) 100%);
+  background: linear-gradient(to bottom,  rgba(244,244,244,0.8) 0%,rgba(255,255,255,0.5) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f4f4f4', endColorstr='#ffffff',GradientType=0 );
+  min-height: 600px;
+}
+.second-row {
+  background: url(../img/bg2.jpg);
+   background-size: 100%;
+}
+.third-row {
+  background: url(../img/bg3.jpg) top left;
+   background-size: 130%;
+}
+.fourth-row {
+  background: url(../img/bg4.jpg);
+   background-size: 100%;
+}
+.price-row, .pricing-table .title {
   background: rgb(244,244,244);
   background: -moz-linear-gradient(top,  rgba(244,244,244,1) 0%, rgba(255,255,255,1) 100%);
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(244,244,244,1)), color-stop(100%,rgba(255,255,255,1)));

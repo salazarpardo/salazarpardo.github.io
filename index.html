@@ -13,7 +13,7 @@
   <div class="inner-wrap">
     <nav class="tab-bar">
       <section class="left-small">
-        <a class="left-off-canvas-toggle menu-icon" href="#"><span></span></a>
+        <a class="left-off-canvas-toggle menu-icon button expand" href="#"><span></span></a>
       </section>
 
       <section class="middle tab-bar-section">
@@ -21,7 +21,7 @@
       </section>
 
       <section class="right-small">
-        <a class="right-off-canvas-toggle" href="#"><span class="entypo-user"></span></a>
+        <a class="right-off-canvas-toggle button expand" href="#"><span class="entypo-user"></span></a>
       </section>
     </nav>
 
@@ -54,16 +54,16 @@
                 <h2 class="text-center">
                  Consulte los Reportes de<br> Sostenibilidad Empresarial<br> de Colombia.
                 </h2>
-                 <label for="rsearch">Escriba la empresa que desea consultar</label>
-                <form>
+                
+                <form class="rsearch">
+                   <label for="rsearch">Escriba la empresa que desea consultar</label>
                   <div class="row collapse">
                     <div class="small-10 columns">
-                     
-                        <input id="rsearch" type="text" placeholder="Ejemplo: Ecopetrol" />
+                        <input id="rsearch" type="text" placeholder="Ejemplo: Coca Cola" />
                       
                     </div>
                     <div class="small-2 columns">
-                      <a class="button small expand" href="#"><span class="entypo-search"></span></a>
+                      <a class="button success small expand" href="resultados/"><span class="entypo-search"></span></a>
                     </div>
                   </div>
                 </form>
@@ -72,36 +72,39 @@
           </div>
       </div>
     </div>
-    <div class="content-row second-row">
-      <div class="row">
-        <div class="large-12 columns">
-          <h3 class="text-right">Lorem ipsum dolor sit amet</h3>
-          <p class="text-right">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-          <a class="button small right" href="#">Ver más</a>
-        
+    <div class="second-row">
+      <div class="content-row">
+        <div class="row">
+          <div class="large-12 columns">
+            <h3 class="text-right">Lorem ipsum dolor sit amet</h3>
+            <p class="text-right medium-5 right">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+            <a class="button small right" href="#">Ver más</a>
+          </div>
         </div>
       </div>
     </div>
-    <div class="content-row third-row">
-      <div class="row">
-        <div class="large-12 columns">
-          <h3 class="text-left">Lorem ipsum dolor sit amet</h3>
-          <p class="text-left">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-          <a class="button small left" href="#">Ver más</a>
-          
+    <div class="third-row">
+      <div class="content-row">
+        <div class="row">
+          <div class="large-12 columns">
+            <h3 class="text-left">Lorem ipsum dolor sit amet</h3>
+            <p class="text-left medium-5 left">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+            <a class="button small left" href="#">Ver más</a>
+          </div>
         </div>
       </div>
     </div>
-    <div class="content-row fourth-row">
-      <div class="row">
-        <div class="large-12 columns">
-          <h3 class="text-right">Lorem ipsum dolor sit amet</h3>
-          <p class="text-right">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-          <a class="button small right" href="#">Ver más</a>
-         
+    <div class="fourth-row">
+      <div class="content-row">
+        <div class="row">
+          <div class="large-12 columns">
+            <h3 class="text-right">Lorem ipsum dolor sit amet</h3>
+            <p class="text-right medium-5 right">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+            <a class="button small right" href="#">Ver más</a>
+          </div>
         </div>
       </div>
-    </div>
+    </div>  
     <div class="content-row price-row">
       <div class="row">
         <div class="large-12 columns">
@@ -109,35 +112,35 @@
         <ul class="small-block-grid-1 medium-block-grid-3">
           <li>
             <ul class="pricing-table">
-              <li class="title">BASE</li>
-              <li class="price"><small>No requiere tarjeta de crédito</small></li>
-              <li class="description">An awesome description</li>
+              <li class="title"><h3 class="entypo-user"></h3> <h5>BASE</h5></li>
+              <li class="price">$0</li>
+              <li class="description">No requiere tarjeta de crédito</li>
               <li class="bullet-item">1 Database</li>
               <li class="bullet-item">5GB Storage</li>
               <li class="bullet-item">20 Users</li>
-              <li class="cta-button"><a class="button" href="#">Crear cuenta</a></li>
+              <li class="cta-button"><a class="button" href="#">Conózca más</a></li>
             </ul>
           </li>
           <li>
             <ul class="pricing-table">
-              <li class="title">PYME</li>
-              <li class="price">$99.99 <small>mensual</small></li>
+              <li class="title"><h3 class="entypo-book-open"></h3> <h5>PYME</h5></li>
+              <li class="price">$99.99 <small>/ mes</small></li>
               <li class="description">An awesome description</li>
               <li class="bullet-item">1 Database</li>
               <li class="bullet-item">5GB Storage</li>
               <li class="bullet-item">20 Users</li>
-              <li class="cta-button"><a class="button" href="#">Buy Now</a></li>
+              <li class="cta-button"><a class="button" href="#">Conózca más</a></li>
             </ul>
           </li>
           <li>
             <ul class="pricing-table">
-              <li class="title">MULTI</li>
-              <li class="price">$999.99 <small>mensual</small></li>
+              <li class="title"><h3 class="entypo-chart-line"></h3> <h5>TOTAL</h5></li>
+              <li class="price">$999.99 <small>/ mes</small></li>
               <li class="description">An awesome description</li>
               <li class="bullet-item">1 Database</li>
               <li class="bullet-item">5GB Storage</li>
               <li class="bullet-item">20 Users</li>
-              <li class="cta-button"><a class="button" href="#">Buy Now</a></li>
+              <li class="cta-button"><a class="button" href="#">Conózca más</a></li>
             </ul>
           </li>
         </ul>
