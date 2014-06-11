@@ -85,7 +85,7 @@ h1.title {
   background: url(../img/bg4.jpg);
    background-size: 100%;
 }
-.price-row, .pricing-table .title {
+.price-row, .pricing-table .title, .results-row {
   background: rgb(244,244,244);
   background: -moz-linear-gradient(top,  rgba(244,244,244,1) 0%, rgba(255,255,255,1) 100%);
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(244,244,244,1)), color-stop(100%,rgba(255,255,255,1)));
